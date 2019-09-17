@@ -6,7 +6,7 @@
   url('./font/iconfont.woff') format('woff'),
   url('./font/iconfont.ttf') format('truetype');
 }
-                    
+
 .laydate-icon{
   font-family:"laydate-icon" !important;
   font-size: 16px;
@@ -16,12 +16,12 @@
 }
 
 /**
- 
+
  @Name: laydata
  @Author: 贤心
- 
+
  **/
- 
+
 
 html #layuicss-laydate{display: none; position: absolute; width: 1989px;}
 
@@ -84,7 +84,8 @@ html #layuicss-laydate{display: none; position: absolute; width: 1989px;}
 /* 底部结构 */
 .layui-laydate-footer{position: relative; height: 46px; line-height: 26px; padding: 10px 20px;}
 .layui-laydate-footer span{margin-right: 15px; display: inline-block; cursor: pointer; font-size: 12px;}
-.layui-laydate-footer span:hover{color: #5FB878;}
+/*TODO 底部*/
+.layui-laydate-footer span:hover{color: #40a9ff;}
 .laydate-footer-btns{position: absolute; right: 10px; top: 10px;}
 .laydate-footer-btns span{height: 26px; line-height: 26px; margin: 0 0 0 -1px; padding: 0 10px; border: 1px solid #C9C9C9; background-color: #fff;  white-space: nowrap; vertical-align: top; border-radius: 2px;}
 
@@ -117,14 +118,17 @@ html #layuicss-laydate{display: none; position: absolute; width: 1989px;}
 .layui-laydate, .layui-laydate-hint{border: 1px solid #d2d2d2; box-shadow: 0 2px 4px rgba(0,0,0,.12); background-color: #fff; color: #666;}
 .layui-laydate-header{border-bottom: 1px solid #e2e2e2;}
 .layui-laydate-header i:hover,
-.layui-laydate-header span:hover{color: #5FB878;}
+/*TODO 头部*/
+.layui-laydate-header span:hover{color: #40a9ff;}
 .layui-laydate-content{border-top: none 0; border-bottom: none 0;}
 .layui-laydate-content th{color: #333;}
 .layui-laydate-content td{color: #666;}
-.layui-laydate-content td.laydate-selected{background-color: #00F7DE;}
-.laydate-selected:hover{background-color: #00F7DE !important;}
+/*TODO 范围*/
+.layui-laydate-content td.laydate-selected{background-color: #91d5ff;}
+.laydate-selected:hover{background-color: #91d5ff !important;}
+/*TODO 悬浮*/
 .layui-laydate-content td:hover,
-.layui-laydate-list li:hover{background-color: #eaeaea; color: #333;}
+.layui-laydate-list li:hover{background-color: #bae7ff; color: #333;}
 .laydate-time-list li ol{margin: 0; padding: 0; border: 1px solid #e2e2e2; border-left-width: 0;}
 .laydate-time-list li:first-child ol{border-left-width: 1px;}
 .laydate-time-list>li:hover{background: none;}
@@ -136,8 +140,10 @@ html #layuicss-laydate{display: none; position: absolute; width: 1989px;}
 .layui-laydate-hint{color: #FF5722;}
 .laydate-day-mark::after{background-color: #5FB878;}
 .layui-laydate-content td.layui-this .laydate-day-mark::after{display: none;}
-.layui-laydate-footer span[lay-type="date"]{color: #5FB878;}
-.layui-laydate .layui-this{background-color: #009688 !important; color: #fff !important;}
+/*TODO 底部*/
+.layui-laydate-footer span[lay-type="date"]{color: #40a9ff;}
+/*TODO 选中*/
+.layui-laydate .layui-this{background-color: #1890FF !important; color: #fff !important;}
 .layui-laydate .laydate-disabled,
 .layui-laydate .laydate-disabled:hover{background:none !important; color: #d2d2d2 !important; cursor: not-allowed !important; -moz-user-select: none; -webkit-user-select: none; -ms-user-select: none;}
 
